@@ -23,10 +23,6 @@ android {
     }
     signingConfigs {
         release {
-            storeFile file("D:/Android/KeyStore/mykeystore.jks")
-            storePassword "zs1234"
-            keyAlias "mykeystore"
-            keyPassword "zs1234"
         }
     }
     buildTypes {
